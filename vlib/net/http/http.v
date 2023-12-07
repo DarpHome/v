@@ -46,6 +46,7 @@ pub fn new_request(method Method, url_ string, data string) Request {
 		method: method
 		url: url
 		data: data
+		header: Header{}
 		/*
 		headers: {
 			'Accept-Encoding': 'compress'
